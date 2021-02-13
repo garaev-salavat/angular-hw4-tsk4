@@ -1,5 +1,5 @@
 <div class="col s6">
-  <h4 class="header">{{ phoneBook.name }} : ({{phoneBook.phone}})</h4>
+  <h4 class="header">{{ phoneBook.name | uppercase }} : ({{phoneBook.phone | phone}})</h4>
   <div class="card horizontal">
     <div class="card-image">
       <img src="assets/images.png" />
@@ -7,7 +7,7 @@
     <div class="card-stacked">
       <div class="card-content">
         <p>Имя: {{ phoneBook.name }}</p>
-        <p>Мобильный: {{ phoneBook.phone }}</p>
+        <p>Мобильный: {{ phoneBook.phone | phone }}</p>
         <p>E-mail: {{phoneBook.email}}</p>
         <p>Адрес: {{phoneBook.address}}</p>
       </div>

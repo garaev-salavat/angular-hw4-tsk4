@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PhonebookComponent } from './phonebook/phonebook.component';
+import { PhonePipe } from './phone.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhonebookComponent
+    PhonebookComponent,
+    PhonePipe
   ],
   imports: [
     BrowserModule, HttpClientModule
