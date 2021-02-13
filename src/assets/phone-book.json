@@ -1,0 +1,31 @@
+[{
+    "name": "Bob",
+    "phone": "+79157440022",
+    "email": "bob@mail.com",
+    "address": "г.Москва"
+},{
+    "name": "Tom",
+    "phone": "+79154448520",
+    "email": "tom@mail.com",
+    "address": "г.Москва"
+},{
+    "name": "Alice",
+    "phone": "+79157105391",
+    "email": "alice@mail.com",
+    "address": "г.Москва"
+},{
+    "name": "Janet",
+    "phone": "+79157105391",
+    "email": "janet@mail.com",
+    "address": "г.Москва"
+},{
+    "name": "Sheldon",
+    "phone": "+79157105391",
+    "email": "sheldon@mail.com",
+    "address": "г.Москва"
+},{
+    "name": "Sasha",
+    "phone": "+79157105391",
+    "email": "sasha@mail.com",
+    "address": "г.Москва"
+}]
